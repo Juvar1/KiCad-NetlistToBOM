@@ -5,6 +5,8 @@ I made a custom plugin to KiCad with Python that can be used to export BOM from 
 
 Output is formatted to conforms Eurocircuits requirements, but it is easy to modify when needed. User needs only import that CSV to LibreOffice Calc and save it to XLS file. For some reason Eurocircuits is using Micro$oft proprietary file format for that purpose. But I can live with that. I don't want to use any software from that company.
 
+Edit: Eurocircuits supports CSV, XLS, XLSX, TXT and ODS file formats. Very nice! :)
+
 There is no need to fill MPN or description fields to every similar component. Plugin takes first non-null field and copies it to resulting CSV to that component group.
 
 CSV is in it's standard form. Separated with semi-colon and only non-numeric fields are quoted.
